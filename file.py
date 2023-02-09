@@ -5,7 +5,9 @@ from datetime import datetime
 
 
 
-
+tmpfile    = "temp.tmp"               # file used to store all extracted data
+logfile    = "logfile.txt"            # all event logs will be stored in this file
+targetfile = "transformed_data.csv"   # file where transformed data is stored
 
 
 '''
